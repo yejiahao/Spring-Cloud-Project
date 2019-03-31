@@ -12,7 +12,7 @@
     <artifactId>boot-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>boot-demo</name>
-    <description>boot-demo for Spring Boot</description>
+    <description>boot-demo for Spring Cloud</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -37,6 +37,8 @@
     </dependencies>
 
     <build>
+        <finalName>boot-demo</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
